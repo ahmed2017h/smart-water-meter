@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+
+        <layer-list android:paddingRight="20dp">
+
+            <item>
+                <shape android:shape="rectangle">
+                    <padding
+                        android:left="1dp"
+                        android:top="1dp"
+                        android:right="1dp"
+                        android:bottom="1dp"
+                        />
+
+                    <stroke android:width="2px" android:color="#000" />
+                    <corners android:topLeftRadius="18dp"
+                        android:topRightRadius="18dp"
+                        android:bottomLeftRadius="18dp"
+                        android:bottomRightRadius="18dp" />
+                </shape>
+            </item>
+
+            <item>
+
+                <bitmap android:gravity="right"
+                    android:src="@drawable/triangle_down"/>
+
+            </item>
+
+        </layer-list>
+
+    </item>
+</selector>
